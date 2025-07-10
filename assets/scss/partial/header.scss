@@ -7,7 +7,7 @@
     margin-top: 0;
     margin-bottom: 0;
     color: $color-text;
-    letter-spacing: .01em;
+    letter-spacing: 0.01em;
     font-weight: 700;
     font-style: normal;
     font-size: 1.5rem;
@@ -36,10 +36,10 @@
   }
   #nav {
     color: $color-accent-1;
-    letter-spacing: .01em;
+    letter-spacing: 0.01em;
     font-weight: 200;
     font-style: normal;
-    font-size: .8rem;
+    font-size: $nav-font-size;
 
     ul {
       margin: 0;
@@ -120,4 +120,4 @@
       font-size: 1rem;
     }
   }
-};
+}

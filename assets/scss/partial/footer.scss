@@ -6,7 +6,7 @@
   color: $color-meta;
   vertical-align: top;
   text-align: center;
-  font-size: 11px;
+  font-size: $footer-font-size;
 
   ul {
     margin: 0;
@@ -63,4 +63,4 @@
       align-self: flex-end;
     }
   }
-};
+}

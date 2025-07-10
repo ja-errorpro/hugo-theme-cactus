@@ -2,10 +2,10 @@
 h1,
 .h1 {
   display: block;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   color: $color-accent-1;
-  letter-spacing: .01em;
+  letter-spacing: 0.01em;
   font-weight: 700;
   font-style: normal;
   font-size: 1.5em;
@@ -16,39 +16,41 @@ h2,
 .h2 {
   position: relative;
   display: block;
-  margin-top: 2rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   color: $color-accent-2;
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 h3 {
-  color: $color-accent-2;
+  color: $color-accent-3;
   text-decoration: underline;
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 1.2rem;
 }
-h4
-h5
-h6 {
+h4 {
   display: inline;
   text-decoration: none;
-  color: $color-accent-3;
-  font-weight: bold;
-  font-size: .9rem;
+  color: $color-accent-4;
+  font-weight: bold, italic;
+  font-size: 1rem;
 }
-h3
-h4
-h5
-h6 {
-  margin-top: .9rem;
-  margin-bottom: .5rem;
+h5 h6 {
+  display: inline;
+  text-decoration: none;
+  color: $color-accent-4;
+  font-weight: bold, italic;
+  font-size: 1rem;
+}
+h3 h4 h5 h6 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 hr {
-  border: .5px dashed $color-accent-3;
-  opacity: .5;
+  border: 0.5px dashed $color-accent-3;
+  opacity: 0.5;
   margin: 0;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -56,33 +58,28 @@ hr {
 strong {
   font-weight: bold;
 }
-em
-cite {
+em cite {
   font-style: italic;
 }
-sup
-sub {
+sup sub {
   position: relative;
   vertical-align: baseline;
-  font-size: .75em;
+  font-size: 0.75em;
   line-height: 0;
 }
 sup {
-  top: -.5em;
+  top: -0.5em;
 }
 sub {
-  bottom: -.2em;
+  bottom: -0.2em;
 }
 small {
-  font-size: .85em;
+  font-size: 0.85em;
 }
-acronym
-abbr {
+acronym abbr {
   border-bottom: 1px dotted;
 }
-ul
-ol
-dl {
+ul ol dl {
   line-height: $line-height;
 }
 ul ul,
