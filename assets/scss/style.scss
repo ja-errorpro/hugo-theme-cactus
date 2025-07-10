@@ -104,6 +104,22 @@ body {
       @include underline(6px, $color-link);
     }
   }
+  table {
+    background-color: #282a36;
+  }
+  th {
+    background-color: #565a70;
+    border-left: 1px solid $color-border;
+  }
+  tr {
+    border-bottom: 1px solid $color-border;
+  }
+  td {
+    padding: 0.5rem;
+    border: 1px solid $color-border;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+  }
 }
 @media (min-width: 540px) {
   .image-wrap {
